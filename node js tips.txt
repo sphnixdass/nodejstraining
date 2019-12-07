@@ -13,3 +13,11 @@ parcel
 
 promise --> bluebird
 
+https://www.w3schools.com/nodejs/nodejs_raspberrypi_blinking_led.asp
+
+netstat -ano
+
+https://github.com/eswaribala/rpsrbsreact2019
+
+
+
