@@ -4,11 +4,18 @@ var pdfreader = require("pdfreader");
 filepath = '/home/dass/Desktop/DassNodeTraining/nodejstraining/Testing.pdf'
 
 var rows = {}; // indexed by y-position
- 
+var temptxt = "";
+
 function printRows() {
+    
   Object.keys(rows) // => array of y-positions (type: float)
     .sort((y1, y2) => parseFloat(y1) - parseFloat(y2)) // sort float positions
-    .forEach(y => console.log((rows[y] || []).join("")));
+    .forEach(y => {(console.log((rows[y] || []).join("")));
+    temptxt += (rows[y] || []).join("");
+        }
+    );
+
+    console.log(temptxt);
 }
  
 new pdfreader.PdfReader().parseFileItems(filepath, function(
