@@ -18,8 +18,47 @@ https://www.w3schools.com/nodejs/nodejs_raspberrypi_blinking_led.asp
 netstat -ano
 
 https://github.com/eswaribala/rpsrbsreact2019
+auandl.com/tools/api
 
 
 
+openssl
+
+
+openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365
+
+or
+
+openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365 -config "e:/openssl/openssl.cnf"
+
+https://github.com/marak/say.js/
+http://linuxondesktop.blogspot.com/2008/06/convert-text-files-to-mp3-under-linux.html
+
+
+mongodb -->server
+mongo -->client
+http://localhost:27017/
+
+
+
+db.createUser({
+user: "Dass",
+pwd: "123",
+roles:[{ role: "userAdminAnyDatabase", db: "admin"}, {role: "readWrite", db: "pmtdb"}]
+})
+
+sudo service mongod status
+
+sudo service mongod start
+
+mongo -u Dass -p --authenticationDatabase admin
+
+
+sudo nano /etc/mongod.conf
+mongodb.conf
+
+ . . .
+security:
+  authorization: "enabled"
 
 
