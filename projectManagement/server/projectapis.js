@@ -2,6 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var cors = require('cors');
 var http = require('http');
+var dao = require('./dbaccess/helper')
 
 var app = express();
 
@@ -44,6 +45,7 @@ app.post("/addProject",function(req, res){
 
  console.log(req.body);
  //console.log(res.body);
+ dao.Add(req.body);
     res.end("record added");
 
 });

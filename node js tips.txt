@@ -54,7 +54,7 @@ sudo service mongod start
 mongo -u Dass -p --authenticationDatabase admin
 
 
-sudo nano /etc/mongod.conf
+
 mongodb.conf
 
  . . .
