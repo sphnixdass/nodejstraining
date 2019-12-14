@@ -12,6 +12,7 @@ parcel
 
 https://www.primefaces.org/primereact/#/fileupload
 material ui
+https://app.netlify.com/teams/sphnixdass/builds/
 
 
 promise --> bluebird
