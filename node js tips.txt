@@ -97,3 +97,15 @@ security:
       --authenticationDatabase "admin"
 
 
+http://localhost:5002/addEmployee
+{
+	 "employeeNo":123,
+            "firstName":"Dass",
+            "lastName":"S",
+            "mobileNo":9884952440,
+            "email":"sphnixdass@gmail.com",
+            "dob":"01/01/2011",
+            "userName":"Dass",
+            "password":"123"
+}
+
